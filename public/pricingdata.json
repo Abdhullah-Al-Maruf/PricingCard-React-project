@@ -1,0 +1,60 @@
+{
+  "pricingPlans": [
+    {
+      "id": 1,
+      "icon":"bicep",
+      "name": "Free",
+      "price": 0,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Perfect for beginners getting started.",
+      "badge": "Free",
+      "features": [
+        "Basic Features Access",
+        "Limited Storage",
+        "Community Support",
+        "Single User"
+      ],
+      "buttonText": "Get Started",
+      "popular": false
+    },
+    {
+      "id": 2,
+        "icon":"rocket",
+      "name": "Premium",
+      "price": 9.99,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Best for professionals and regular users.",
+      "badge": "MostPopular",
+      "features": [
+        "All Free Features",
+        "Unlimited Projects",
+        "Priority Support",
+        "Advanced Analytics",
+        "No Ads"
+      ],
+      "buttonText": "Upgrade Now",
+      "popular": true
+    },
+    {
+      "id": 3,
+   "icon":"user",
+      "name": "Family",
+      "price": 19.99,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Ideal for families and teams.",
+      "badge": "BestValue",
+      "features": [
+        "All Premium Features",
+        "Up to 5 Members",
+        "Shared Workspace",
+        "Family Dashboard",
+        "24/7 Support"
+      ],
+      "buttonText": "Choose Plan",
+      "popular": false
+    }
+  ]
+}
