@@ -19,7 +19,7 @@ const Pricecard = ({plan}) => {
     }
     return (
         <div>
-          <div  className='  rounded-xl shadow-xl  p-4 relative bg-[#00003F] text-gray-500'>
+          <div  className='  rounded-xl shadow-xl  p-4 relative bg-[#00003F] text-gray-500   transition duration-300 hover:scale-105 hover:shadow-2xl '>
             <div className='mb-3 font-bold '>
             {badgeMap[badge]}
             </div>
@@ -37,7 +37,7 @@ const Pricecard = ({plan}) => {
             {
                 popular && <p className="badge badge-warning absolute top-3 right-2 text-white
                  font-bold p-5
-                 btn btn-success shadow-orange-500 shadow-md
+                 btn btn-success shadow-orange-500 shadow-md  scale-105 border-2 border-amber-400
                  ">Hot Deal</p>
             }
             </div>
